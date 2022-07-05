@@ -4,9 +4,12 @@
 <br>
 <br>
 
-<h2 align="center"><b>Coming Soon</b></h2>
+<h2 align="center"><b>Documentation Coming Soon</b></h2>
 <br>
+# Demo
+Check out a Demo of the application at [https://stk-push-php.herokuapp.com/](https://stk-push-php.herokuapp.com/)
+
 <br>
-## <b>License</b>
+##<b>License</b>
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](LICENSE)
