@@ -26,7 +26,7 @@ if(isset($_POST['submit'])){
     $initiate_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
 
     # callback url
-    $CallBackURL = 'https://ae6e-41-80-96-255.ngrok.io/callback.php';  
+    $CallBackURL = 'https://stk-push-php.herokuapp.com/callback.php';  
 
     $curl = curl_init($access_token_url);
 	//encode to base64
@@ -40,7 +40,7 @@ if(isset($_POST['submit'])){
 	$status = curl_getinfo($curl,CURLINFO_HTTP_CODE);
 	$result = json_decode($result);
 	$accessToken = $result->access_token; 
-    //$accessToken = 'GIUrYYA2TOGwZr36ZhmIVB9SHptA';
+   
     curl_close($curl);
     # header for stk push
     $stkheader = ['Content-Type:application/json','Authorization:Bearer '.$accessToken];
