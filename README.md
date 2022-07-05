@@ -1,4 +1,4 @@
-<h1 align="center"><b>Circuitbase Backend</b></h1>
+<h1 align="center"><b>MPESA STK PUSH PHP</b></h1>
 
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://github.com/maxwellwachira/circuitbase-backend.git)
 <br>
